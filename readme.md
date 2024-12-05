@@ -16,13 +16,13 @@ Clone this repository
 git clone [repository-link] [target-directory]
 ```
 
-Install the required packages
+Install the required packages  
 Ensure Python is installed and activate the appropriate virtual environment (if applicable) before running the command. Otherwise, dependencies might be installed in the global environment instead of the local one.
 ```bash
 pip install -r requirements.txt
 ```
 
-Create a .env file in the project root directory with the following variable:
+Create a .env file in the project root directory with the following variable
 ```bash
 OPENAI_API_KEY=your_openai_api_key
 ```
